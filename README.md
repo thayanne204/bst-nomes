@@ -1,5 +1,4 @@
 # bst-nomes
-
 //Casse No
 public class No {
 	String nome;
@@ -11,8 +10,6 @@ public class No {
 		this.contador = 1;
 	}
 }
-
-
 
 //Classe ArvoreNomes
 public class ArvoreNomes {private No raiz;
@@ -147,8 +144,6 @@ private No buscarNo(No no, String nome) {
     }
 }
 }
-
-
 //Classe Main
 public class Main { public static void main(String[] args) {
     ArvoreNomes arvore = new ArvoreNomes();
